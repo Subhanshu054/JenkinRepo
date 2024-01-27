@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
-    console.log('Server running at http://%s:%s/', hostname, port);
+    console.log('Server Running at http://%s:%s/', hostname, port);
 });
 
 process.on('SIGINT', function() {
