@@ -11,6 +11,7 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, hostname, () => {
     console.log('Server Running at http://%s:%s/', hostname, port);
+    console.log('Hello Jenkins Admin')
 });
 
 process.on('SIGINT', function() {
